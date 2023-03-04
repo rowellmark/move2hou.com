@@ -1,0 +1,282 @@
+/*******************************************************
+ *
+ * Mobile styles and other media queries
+ *
+ *******************************************************/
+@media only screen and (max-width: 1366px) {
+
+	.header .header-right .navigation ul li {
+		padding: 0 15px;
+	}
+	.header .header-right .hd-contact {
+		margin-left: 15px;
+	}
+
+	.hp-quick-search .qcForm label{
+		font-size: 10px;
+	}
+
+	#hp-featured-properties .fp-list a .fp-content span{
+		font-size: 11px;
+	}
+}
+ 
+/* iPad(landscape) | iPad(landscape) | Galaxy Tab 4 (landscape) | Galaxy Tab 3 (landscape) */ 
+@media only screen and (max-width: 1199px) {
+	.header .header-right .navigation ul li {
+		padding: 0 10px;
+	}
+		.header .header-right .navigation ul li a{
+			font-size: 11px;
+		}
+
+	.header .header-right .hd-contact a{
+		font-size: 11px;
+		width: 130px;
+	}
+		.header .header-right .hd-contact a i{
+			font-size: 9px;
+		}
+	.expanded-menu-wrap .navigation ul li a{
+		font-size: 24px;
+	}
+
+	#hero .slide-tagline h1{
+		font-size: 32px;
+	}
+		#hero .slide-tagline p{
+			font-size: 16px;
+		}
+	.hp-quick-search .qc-form-container{
+		padding: 37px 19px 30px 17px;
+	}
+		.hp-quick-search .qc-form-container .qc-title{
+			padding-right: 0;
+		}
+		.hp-quick-search .qcForm label {
+			font-size: 8px;
+		}
+		.hp-quick-search .qc-form-container .qc-title .default-title h2 span{
+			font-size: 11px;
+		}
+		.hp-quick-search .qc-form-container .qc-title .default-title h2 em {
+			font-size: 40px;
+		}
+
+	#hp-fn .hp-fn-wrapper{
+		min-height: 650px;
+	}
+	#hp-about .about-content .default-title h2 em {
+		font-size: 60px;
+	}
+	.hp-performance-number .fn-lists li{
+		padding: 0 30px;
+	}
+} 
+
+/* iPad(portrait) | Galaxy Tab 4(portrait)  */ 
+@media only screen and (max-width: 991px) {
+	
+
+
+	.header{
+		position: static;
+		background-image: -moz-linear-gradient(-90deg, rgb(28, 49, 81) 1%, rgb(0, 0, 0) 1%, rgb(57, 57, 57) 100%);
+		background-image: -webkit-linear-gradient(-90deg, rgb(28, 49, 81) 1%, rgb(0, 0, 0) 1%, rgb(57, 57, 57) 100%);
+		background-image: -ms-linear-gradient(-90deg, rgb(28, 49, 81) 1%, rgb(0, 0, 0) 1%, rgb(57, 57, 57) 100%);
+		margin-top: 53px;
+	}
+		.header .header-left{
+			width: 100%;
+		}
+			.header .header-left .logo{
+				max-width: 269px;
+				margin: 0 auto;
+			}
+		.header .header-right{
+			display: none;
+		}
+
+	#hero .slide-floating-info{
+		display: none;
+	}
+
+	.hp-quick-search{
+		position: static;
+	}
+		.hp-quick-search .qc-wrapper{
+			padding: 0;
+		}
+		.hp-quick-search .quick-search-heading-title{
+			display: none;
+		}
+		.hp-quick-search .qc-form-container{
+			opacity: 1;
+			visibility: visible;
+			transform: translate(0, 0);
+			flex-flow: column;
+			padding: 40px;
+		}
+			.hp-quick-search .qc-form-container .qc-title .default-title.default-title-white h2{
+				display: inline-block;
+			}
+
+				.hp-quick-search .qc-form-container .qc-title .default-title h2 span {
+					font-size: 14px;
+				}
+				.hp-quick-search .qc-form-container .qc-title .default-title h2 em {
+					font-size: 50px;
+				}
+
+		.hp-quick-search .qc-form{
+			width: 100%;
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 0 20px;
+		}
+			.hp-quick-search .qc-form form{
+				flex-flow: row wrap;
+			}
+				.hp-quick-search .qcForm{
+					padding: 10px;
+					width: calc(100% / 2);
+				}
+					.hp-quick-search .qcForm:first-child, .hp-quick-search .qcForm:nth-child(2){
+						width: 100%;
+					}
+					.hp-quick-search .qcForm label{
+						font-size: 14px;
+					}
+				.hp-quick-search .qcBttn {
+					text-align: center;
+					width: 100%;
+					padding: 40px 0 0;
+				}
+					.hp-quick-search .qcBttn .default-button{
+						display: inline-block;
+					}
+				.hp-quick-search .qc-form p{
+					text-align: center;
+				}
+
+	#hp-about .about-wrapper{
+
+	}
+		#hp-about::after{
+			display: none;
+		}
+		#hp-about .about-wrapper .container{
+			flex-flow: column;
+		}
+			#hp-about .about-photo{
+				width: 100%;
+				max-width: 450px;
+				margin: 0 auto;
+			}
+			#hp-about .about-content{
+				padding: 90px 0 0;
+			}
+
+
+	#hp-fn{
+		background-position: top right;
+	}
+	#hp-fn .featuredNeighborhoodSlide {
+		width: 100% !important;
+		padding: 0;
+	}
+		#hp-fn .featuredNeighborhoodSlide a h4{
+			font-size: 22px;
+		}
+
+	#hp-featured-properties .fp-list{
+		width: 100%;
+		height: auto !important;
+	}
+
+		#hp-featured-properties .fp-list a .fp-content{
+			max-width: 80%;
+		}
+
+	.hp-cta .cta-list{
+		width: 100%;
+	}
+
+	.hp-performance-number .fn-lists{
+		flex-flow: column;
+	}
+
+	#hp-social-media .social-list {
+		width: calc(100% / 2);
+	}
+
+		#hp-social-media .social-headings {
+			flex-flow: column;
+		}
+			#hp-social-media .social-headings .ig-title{
+				margin-bottom: 20px;
+			}
+
+	#hp-testimonials .testimonials-wrapper .testimonials-container {
+		width: 100%;
+	}
+	/* The following are used on inner pages. Please edit carefully. */
+
+	.inner {
+	    width: 100%;
+	}
+	#content-sidebar, #content-full {
+	    width: 100%;
+	}	
+	.outer{
+		width: 100%;
+		min-width: 100%;
+	}
+	#content-sidebar #content{
+		width: 100%;
+	}
+	
+
+	.footer .sub-footer{
+
+	}
+		.footer .sub-footer .container{
+			flex-flow: column;
+		}
+			.footer .sub-footer .footer-info {
+				width: 100%;
+			}
+				.footer .sub-footer .footer-info .footer-logo{
+					max-width: 269px;
+					margin: 0 auto;
+				}
+				.footer .sub-footer .footer-contact-info li{
+					justify-content: center;
+				}
+			.footer .sub-footer .footer-nav {
+				width: 100%;
+			}
+				.footer .sub-footer .footer-nav ul li {
+					text-align: center;
+				}
+		.footer .sub-footer .footer-form {
+			width: 100%;
+			text-align: center;
+			padding-top: 20px;
+			max-width: 450px;
+			margin: 0 auto;
+		}
+} 
+
+/* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */ 
+@media only screen and (max-width: 767px) {
+    .ip-banner .container{
+        width: 100%;
+    }
+}
+
+/* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */ 
+@media only screen and (max-width: 480px) {
+
+}
+ 
