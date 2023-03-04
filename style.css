@@ -883,7 +883,7 @@ body{
 
 /* Hero */
 #hero{
-
+    overflow: hidden;
 }
     /* Slideshow */
     #hero .slideshow{
@@ -1090,6 +1090,7 @@ body{
         /* About Content */
         #hp-about .about-content{
             padding-left: 7%;
+            padding-top: 20px;
         }
             #hp-about .about-content .default-title{
                 padding-bottom: 15px;

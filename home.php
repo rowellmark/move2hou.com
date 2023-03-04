@@ -6,8 +6,8 @@
 
 		<div class="slide-tagline text-center absolute w-100 h-100 flex items-center top-0 left-0">
 			<div class="container">
-				<h1> <span>#MOVE2HOU </span> Relocation + Luxury Experiences Team</h1>
-				<p>Where real estate meets luxury + lifestyle</p>
+				<h1 data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800"> <span>#MOVE2HOU </span> Relocation + Luxury Experiences Team</h1>
+				<p data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">Where real estate meets luxury + lifestyle</p>
 			</div>
 		</div><!-- end of slide tagline -->
 
@@ -20,7 +20,7 @@
 
 	<div class="hp-quick-search absolute w-100">
 		<div class="default-container">
-			<div class="qc-wrapper">
+			<div class="qc-wrapper" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 				<div class="quick-search-heading-title absolute">
 					<div class="default-title has-line text-center has-line default-title-white inline-block relative">
 						<h2 class="inline-block">
@@ -101,7 +101,7 @@
 		
 	</div><!-- end of quick search -->
 
-	<div class="slide-floating-info absolute h-100">
+	<div class="slide-floating-info absolute h-100" data-aos="fade-left" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 		<ul class="flex flex-col h-100 justify-center items-center">
 			<li>
 				<?= do_shortcode('[ai_client_phone]<i class="ai-font-phone"></i>[/ai_client_phone]')?>
@@ -122,10 +122,10 @@
 <section id="hp-about" class="relative has-after">
 	<div class="about-wrapper relative">
 		<div class="container flex items-start">
-			<div class="about-photo relative has-after">
+			<div class="about-photo relative has-after" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 				<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/about-photo.jpg" alt="Welcome to #move2hou" class="block relative w-100">
 			</div><!-- end of about photo -->
-			<div class="about-content">
+			<div class="about-content" data-aos="fade-right" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 
 				<div class="default-title text-left relative">
 					<h2 class="inline-block">
@@ -148,14 +148,14 @@
 	<div class="hp-fn-wrapper relative">
 		<div class="container">
 
-			<div class="default-title has-line text-center">
+			<div class="default-title has-line text-center" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 				<h2 class="inline-block">
 					<span>featured</span>
 					<em><i>Neighborhoods</i></em>
 				</h2>
 			</div>
 
-			<div class="featuredNeighborhoodSlides splide">
+			<div class="featuredNeighborhoodSlides splide" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 
 				<div class="splide__track">
 					<div class="splide__list">
@@ -270,7 +270,7 @@
 
 <section id="hp-featured-properties" class="relative">
 
-	<div class="default-title has-line default-title-white text-center">
+	<div class="default-title has-line default-title-white text-center" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 		<h2 class="inline-block">
 			<span>featured</span>
 			<em><i>properties</i></em>
@@ -279,7 +279,7 @@
 
 	<div class="fp-lists flex flex-wrap-wrap">
 
-		<div class="fp-list">
+		<div class="fp-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 			<a href="#" class="relative block w-100 h-100">
 				<div class="fp-img relative w-100 h-100">
 					<canvas width="798" height="503" class="block w-100 h-100"></canvas>
@@ -295,7 +295,7 @@
 				</div>
 			</a>
 		</div><!-- end of fp list -->
-		<div class="fp-list">
+		<div class="fp-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 			<a href="#" class="relative block w-100 h-100">
 				<div class="fp-img relative w-100 h-100">
 					<canvas width="798" height="503" class="block w-100 h-100"></canvas>
@@ -311,7 +311,7 @@
 				</div>
 			</a>
 		</div><!-- end of fp list -->
-		<div class="fp-list">
+		<div class="fp-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 			<a href="#" class="relative block w-100 h-100">
 				<div class="fp-img relative w-100 h-100">
 					<canvas width="798" height="503" class="block w-100 h-100"></canvas>
@@ -327,7 +327,7 @@
 				</div>
 			</a>
 		</div><!-- end of fp list -->
-		<div class="fp-list">
+		<div class="fp-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 			<a href="#" class="relative block w-100 h-100">
 				<div class="fp-img relative w-100 h-100">
 					<canvas width="798" height="503" class="block w-100 h-100"></canvas>
@@ -345,7 +345,7 @@
 		</div><!-- end of fp list -->
 	</div><!-- end of fp lists -->
 
-	<div class="fp-button text-center">
+	<div class="fp-button text-center" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 		<div class="default-button default-button-white inline-block">
 			<a href="#">view more properties</a>
 		</div>
@@ -360,8 +360,8 @@
 		<div class="hp-cta">
 			<div class="cta-lists flex flex-wrap-wrap">
 				
-				<div class="cta-list">
-					<a href="#" class="block w-100 relative">
+				<div class="cta-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
+					<a href="/find-my-dream-home/" class="block w-100 relative">
 						<div class="cta-img relative has-after">
 							<canvas width="639" height="463" class="block w-100"></canvas>
 							<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/cta-1.jpg" alt="find my dream home" class="block absolute top-0 left-0 w-100 h-100 object-fit-cover object-position-center">
@@ -374,8 +374,8 @@
 						</div>
 					</a>
 				</div><!-- end of cta list -->
-				<div class="cta-list">
-					<a href="#" class="block w-100 relative">
+				<div class="cta-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
+					<a href="/what-is-my-home-worth/" class="block w-100 relative">
 						<div class="cta-img relative has-after">
 							<canvas width="639" height="463" class="block w-100"></canvas>
 							<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/cta-2.jpg" alt="what’s my home worth?" class="block absolute top-0 left-0 w-100 h-100 object-fit-cover object-position-center">
@@ -388,8 +388,8 @@
 						</div>
 					</a>
 				</div><!-- end of cta list -->
-				<div class="cta-list">
-					<a href="#" class="block w-100 relative">
+				<div class="cta-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
+					<a href="/help-me-relocate/" class="block w-100 relative">
 						<div class="cta-img relative has-after">
 							<canvas width="639" height="463" class="block w-100"></canvas>
 							<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/cta-3.jpg" alt="help me relocate" class="block absolute top-0 left-0 w-100 h-100 object-fit-cover object-position-center">
@@ -402,7 +402,7 @@
 						</div>
 					</a>
 				</div><!-- end of cta list -->
-				<div class="cta-list">
+				<div class="cta-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 					<a href="#" class="block w-100 relative">
 						<div class="cta-img relative has-after">
 							<canvas width="639" height="463" class="block w-100"></canvas>
@@ -416,7 +416,7 @@
 						</div>
 					</a>
 				</div><!-- end of cta list -->
-				<div class="cta-list">
+				<div class="cta-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 					<a href="#" class="block w-100 relative">
 						<div class="cta-img relative has-after">
 							<canvas width="639" height="463" class="block w-100"></canvas>
@@ -430,7 +430,7 @@
 						</div>
 					</a>
 				</div><!-- end of cta list -->
-				<div class="cta-list">
+				<div class="cta-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 					<a href="#" class="block w-100 relative">
 						<div class="cta-img relative has-after">
 							<canvas width="639" height="463" class="block w-100"></canvas>
@@ -449,7 +449,7 @@
 
 		<div class="hp-performance-number">
 
-			<div class="default-title has-line text-center default-title-white relative">
+			<div class="default-title has-line text-center default-title-white relative" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 				<h2 class="inline-block">
 					<span>performance</span>
 					<em><i>numbers</i></em>
@@ -486,7 +486,7 @@
 <section id="hp-social-media">
 	<div class="container">
 
-		<div class="default-title has-line text-center relative">
+		<div class="default-title has-line text-center relative" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 			<h2 class="inline-block">
 				<span>get social</span>
 				<em><i>follow us</i></em>
@@ -495,49 +495,49 @@
 
 		<div class="social-lists flex flex-wrap-wrap">
 			
-			<div class="social-list">
+			<div class="social-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<canvas width="268" height="269"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/sc-1.jpg" alt="Instagram" class="block absolute top-0 left-0 w-100 h-100 object-fit-cover object-position-center">
 				</a>
 			</div><!-- end of social list -->
-			<div class="social-list">
+			<div class="social-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<canvas width="268" height="269"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/sc-2.jpg" alt="Instagram" class="block absolute top-0 left-0 w-100 h-100 object-fit-cover object-position-center">
 				</a>
 			</div><!-- end of social list -->
-			<div class="social-list">
+			<div class="social-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<canvas width="268" height="269"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/sc-3.jpg" alt="Instagram" class="block absolute top-0 left-0 w-100 h-100 object-fit-cover object-position-center">
 				</a>
 			</div><!-- end of social list -->
-			<div class="social-list">
+			<div class="social-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<canvas width="268" height="269"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/sc-4.jpg" alt="Instagram" class="block absolute top-0 left-0 w-100 h-100 object-fit-cover object-position-center">
 				</a>
 			</div><!-- end of social list -->
-			<div class="social-list">
+			<div class="social-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<canvas width="268" height="269"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/sc-5.jpg" alt="Instagram" class="block absolute top-0 left-0 w-100 h-100 object-fit-cover object-position-center">
 				</a>
 			</div><!-- end of social list -->
-			<div class="social-list">
+			<div class="social-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<canvas width="268" height="269"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/sc-6.jpg" alt="Instagram" class="block absolute top-0 left-0 w-100 h-100 object-fit-cover object-position-center">
 				</a>
 			</div><!-- end of social list -->
-			<div class="social-list">
+			<div class="social-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<canvas width="268" height="269"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/sc-7.jpg" alt="Instagram" class="block absolute top-0 left-0 w-100 h-100 object-fit-cover object-position-center">
 				</a>
 			</div><!-- end of social list -->
-			<div class="social-list">
+			<div class="social-list" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<canvas width="268" height="269"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/sc-8.jpg" alt="Instagram" class="block absolute top-0 left-0 w-100 h-100 object-fit-cover object-position-center">
@@ -548,7 +548,7 @@
 		</div><!-- end of social lists -->
 
 
-		<div class="social-headings flex items-center justify-between">
+		<div class="social-headings flex items-center justify-between" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 			<div class="ig-title flex items-center">
 				<i class="ai-font-instagram"></i>
 				@move2hou
@@ -569,7 +569,7 @@
 		
 		<div class="container flex justify-end">
 
-			<div class="testimonials-container relative">
+			<div class="testimonials-container relative" data-aos="fade-right" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 
 				<div class="testmonials-content relative">
 

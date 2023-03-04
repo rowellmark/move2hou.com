@@ -9,7 +9,7 @@
 		<div class="sub-footer">
 
 			<div class="container flex justify-between">
-				<div class="footer-info">
+				<div class="footer-info" data-aos="fade-right" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 
 					<div class="footer-logo">
 						<a href="<?= do_shortcode('[blogurl]')?>" class="site-name">
@@ -41,12 +41,12 @@
 
 				</div><!-- end of footer info -->
 
-				<div class="footer-nav">
+				<div class="footer-nav" data-aos="fade-up" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 					<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_class' => 'footernav', 'theme_location' => 'primary-menu','depth'=>1 ) ); ?>
 				</div><!-- end of footer nav -->
 
 				
-				<div class="footer-form">
+				<div class="footer-form" data-aos="fade-left" data-aos-once="true"  data-aos-offset="200" data-aos-duration="800">
 					<h3>stay connected</h3>
 					<?= do_shortcode('[contact-form-7 id="339" title="HP Contact Us" html_class="use-floating-validation-tip"]')?>
 				</div><!-- end of footer form -->
